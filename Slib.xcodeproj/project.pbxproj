@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9179201297AC9F200DC5D51 /* Slib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9179200297AC9F200DC5D51 /* Slib.swift */; };
 		B9B45A5D29703C5C002AE213 /* Slib.docc in Sources */ = {isa = PBXBuildFile; fileRef = B9B45A5C29703C5C002AE213 /* Slib.docc */; };
 		B9B45A6329703C5C002AE213 /* Slib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B45A5829703C5C002AE213 /* Slib.framework */; };
 		B9B45A6829703C5C002AE213 /* SlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B45A6729703C5C002AE213 /* SlibTests.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9179200297AC9F200DC5D51 /* Slib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slib.swift; sourceTree = "<group>"; };
 		B9B45A5829703C5C002AE213 /* Slib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B45A5B29703C5C002AE213 /* Slib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slib.h; sourceTree = "<group>"; };
 		B9B45A5C29703C5C002AE213 /* Slib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Slib.docc; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				B9B45A5B29703C5C002AE213 /* Slib.h */,
 				B9B45A5C29703C5C002AE213 /* Slib.docc */,
+				B9179200297AC9F200DC5D51 /* Slib.swift */,
 			);
 			path = Slib;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9B45A5D29703C5C002AE213 /* Slib.docc in Sources */,
+				B9179201297AC9F200DC5D51 /* Slib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +476,7 @@
 		B9B45A7029703C5C002AE213 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L6T2S9K4GS;
@@ -488,6 +493,7 @@
 		B9B45A7129703C5C002AE213 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L6T2S9K4GS;
