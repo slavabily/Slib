@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B9179201297AC9F200DC5D51 /* Slib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9179200297AC9F200DC5D51 /* Slib.swift */; };
+		B9179203297B0BCA00DC5D51 /* Slib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9179202297B0BCA00DC5D51 /* Slib.podspec */; };
 		B9B45A5D29703C5C002AE213 /* Slib.docc in Sources */ = {isa = PBXBuildFile; fileRef = B9B45A5C29703C5C002AE213 /* Slib.docc */; };
 		B9B45A6329703C5C002AE213 /* Slib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B45A5829703C5C002AE213 /* Slib.framework */; };
 		B9B45A6829703C5C002AE213 /* SlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B45A6729703C5C002AE213 /* SlibTests.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		B9179200297AC9F200DC5D51 /* Slib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slib.swift; sourceTree = "<group>"; };
+		B9179202297B0BCA00DC5D51 /* Slib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Slib.podspec; sourceTree = "<group>"; };
 		B9B45A5829703C5C002AE213 /* Slib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B45A5B29703C5C002AE213 /* Slib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slib.h; sourceTree = "<group>"; };
 		B9B45A5C29703C5C002AE213 /* Slib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Slib.docc; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		B9B45A4E29703C5C002AE213 = {
 			isa = PBXGroup;
 			children = (
+				B9179202297B0BCA00DC5D51 /* Slib.podspec */,
 				B9B45A5A29703C5C002AE213 /* Slib */,
 				B9B45A6629703C5C002AE213 /* SlibTests */,
 				B9B45A7729704351002AE213 /* SlibExamples */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9179203297B0BCA00DC5D51 /* Slib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
