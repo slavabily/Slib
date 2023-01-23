@@ -17,7 +17,7 @@ class SwiftyLibTests: XCTestCase {
     }
 
     func testAdd() {
-        XCTAssertEqual(swiftyLib.add(a: 1, b: 1), 2)
+        XCTAssertEqual(swiftyLib.add(a: 1, b: 1, c: 1), 3)
     }
     
     func testSub() {
