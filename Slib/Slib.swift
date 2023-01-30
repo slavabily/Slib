@@ -12,7 +12,7 @@ public final class Slib {
     let name = "SwiftyLib"
     
     public func add(a: Int, b: Int, c: Int) -> Int {
-        return a + b + c
+        return a + b - c
     }
     
     public func sub(a: Int, b: Int) -> Int {
