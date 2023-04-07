@@ -17,11 +17,11 @@ class SwiftyLibTests: XCTestCase {
     }
 
     func testAdd() {
-        XCTAssertEqual(swiftyLib.add(a: 1, b: 1, c: 1), 1)
+        XCTAssertEqual(swiftyLib.add(a: 1, b: 1, c: 1), 3)
     }
     
     func testSub() {
-            XCTAssertEqual(swiftyLib.sub(a: 2, b: 1), 1)
+        XCTAssertEqual(swiftyLib.sub(a: 2, b: 1, c: 1), 0)
     }
 
 }
